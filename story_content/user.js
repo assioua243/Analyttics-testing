@@ -7,10 +7,8 @@ var setVar = player.SetVar;
 var getVar = player.GetVar;
 window.Script1 = function()
 {
-  
-
-// Define your Google Tag Manager ID
-const googleTagManagerID = G-JE78QWP1CP;
+  / Define your Google Tag Manager ID
+const googleTagManagerID = ‘G-JE78QWP1CP’;
 
 // Create the first script tag for Google Tag Manager
 var gtmScript = document.createElement(‘script’);
@@ -39,7 +37,6 @@ gtag(‘set’, ‘cookie_flags’, ‘SameSite=None;Secure’);
 
 // Append the inline script to the head
 document.head.appendChild(inlineScript);
-
 }
 
 };
