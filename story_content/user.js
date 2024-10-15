@@ -38,4 +38,14 @@ googleTagManagerID +
 document.head.appendChild(inlineScript);
 }
 
+window.Script2 = function()
+{
+  gtag('event', 'button_click', {
+  'event_category': 'Buttons',
+  'event_label': 'Start Slide',
+  'value': 1
+});
+
+}
+
 };
